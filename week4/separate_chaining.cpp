@@ -62,13 +62,13 @@ struct HashTable {
 int main() {
     HashTable h;
 
-    h.insert(15, 100);
-    h.insert(25, 200);
-    h.insert(35, 300);
+   h.insert(15, 227);
+    h.insert(25, 22);
+    h.insert(35, 7);
 
-    cout << h.get(25) << endl;
-    cout << h.search(35) << endl;
-    cout << h.search(99) << endl;
+    cout << h.get(15) << endl; //227
+    cout << h.get(25) << endl; //22
+    cout << h.get(35) << endl; //7
 
     return 0;
 }
